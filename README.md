@@ -1,24 +1,78 @@
-# README
+# hello-rails-back-end
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+- In this project I created a Rails API called 'hello-rails-back-end', where the API endpoint selects a random greeting.
 
-Things you may want to cover:
 
-* Ruby version
+## Built With
 
-* System dependencies
+- Ruby v2.6.6
+- Ruby on Rails v6.1.4.3
+- sqlite3
+- PostgreSQL
+- Rubocop
 
-* Configuration
+## Linters
 
-* Database creation
+- Rubocop
 
-* Database initialization
 
-* How to run the test suite
+## Images
+## ![screenshot](./Captura1.PNG)
+## ![screenshot](./Captura2.PNG)
 
-* Services (job queues, cache servers, search engines, etc.)
+## Getting Started
 
-* Deployment instructions
+To get a local copy up and running follow these simple example steps.
 
-* ...
+
+### Setup
+
+
+```
+$ bundle install
+```
+
+Setup database with:
+
+```
+$ rails db:create
+$ rails db:migrate
+$ rails db:seed
+```
+
+### Usage
+
+Start server with:
+
+```
+rails server
+```
+
+## API Endpoints
+
+> List a random greeting from my table
+
+- ```http://127.0.0.1:3000/v1/greetings```
+> or
+- ```http://localhost:3000/v1/greetings```
+  
+## Frontend app: [hello-react-front-end](https://github.com/Rocio01/hello-react-front-end)
+
+## Author
+
+## 👩‍💻 Rocio Martinez
+- Github: [@Rocio01](https://github.com/Rocio01)
+- Twitter: [@rugiada8801](https://twitter.com/rugiada8801)
+- Linkedin: [zulma-rocio-martinez](https://www.linkedin.com/in/zulma-rocio-martinez)
+
+
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/Rocio01/hello-rails-back-end/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
