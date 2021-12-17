@@ -56,7 +56,7 @@ rails server
 > or
 - ```http://localhost:3000/v1/greetings```
   
-## Frontend app: [React SPA](https://github.com/Rocio01/hello-react-front-end)
+## Frontend app: [hello-react-front-end](https://github.com/Rocio01/hello-react-front-end)
 
 ## Author
 
